@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="entrada" id="entrada">
+    <button
+        onclick="mostrarConsola()">
+        Consola
+    </button>
+
+    <span id="valor-rango"></span>
+
+    <input onchange="mostrarValor()" type="range" name="rango" id="rango">
+    <br>
+
+    <input type="text" name="palabra" id="palabra" onchange="actualizarPalabra()">
+    <div>
+        La palabra es: <span id="valor-palabra"></span>
+    </div>
+    <script src="./introduccion-eventos3.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+h2::before {
+    content: "❤️";
+
+}
+
+#contenedor {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0 2m;
+
+    
+}
+.ficha-perro{
+    margin-top: 2em;
+ background-color: aqua;
+}
